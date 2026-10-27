@@ -85,5 +85,21 @@ public class Main {
       System.out.println("input length is less or equal 10");
     }
   }
+
+  // Ex 6
+  public static void calculateRootsAndTheirAverage() {
+    int n = 5;
+    double sum = 0;
+
+    for (int i = 1; i <= n; i++) {
+      double root = Math.pow(i, 0.5);
+      sum += root;
+
+      System.out.println("Die Wurzel von " + i + " ist " + root);
+    }
+
+    double average = sum / n;
+    System.out.println("Der Durchschnitt ist: " + average);
+  }
   
 }
