@@ -72,10 +72,18 @@ public class Main {
       }
     }
   }
-  
+
+  // Ex 5
   public static void scanner() {
     Scanner scanner = new Scanner(System.in);
-    
+
+    String input = scanner.nextLine();
+
+    if (input.length() > 10) {
+      System.out.println("input length is greater than 10");
+    } else {
+      System.out.println("input length is less or equal 10");
+    }
   }
   
 }
