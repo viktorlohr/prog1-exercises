@@ -21,6 +21,12 @@ public class Main {
 
   //  Ex 2
   public static void checkNumberSwitch(int num) {
-    switch 
+    switch (num) {
+      case 42: System.out.println(num + " is the meaning of life."); break;
+      case 7: System.out.println(num + " is a lucky number."); break;
+      case 0: System.out.println(num + " is zero."); break;
+      case 13: System.out.println(num + " is bad."); break;
+      default: System.out.println(num + " is boring.");
+    }
   }
 }
