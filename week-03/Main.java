@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
     System.out.println("Hello, World!");
@@ -55,6 +57,25 @@ public class Main {
       
       currentLevel++;
     }
+  }
+
+  // ex 4
+  public static void nestedLoops() {
+    for (int i = 0; i < 10; i++) {
+      for (int j = 0; j < 10; j++) {
+        int product = i * j;
+
+        for (int k = 0; k < product; k++) {
+          System.out.print("*");
+        } 
+        System.out.println("");
+      }
+    }
+  }
+  
+  public static void scanner() {
+    Scanner scanner = new Scanner(System.in);
+    
   }
   
 }
