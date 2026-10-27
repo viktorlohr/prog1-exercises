@@ -84,6 +84,8 @@ public class Main {
     } else {
       System.out.println("input length is less or equal 10");
     }
+
+    scanner.close();
   }
 
   // Ex 6
